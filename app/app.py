@@ -8,8 +8,8 @@ def home():
     return """
     <h1>AI DevOps Release Dashboard</h1>
     <p>Application: Release Dashboard</p>
-    <p>Version: 1.0.0</p>
-    <p>Environment: Development</p>
+    <p>Version: 1.1.0</p>
+    <p>Environment: Production</p>
     <p>Status: HEALTHY</p>
     """
 
@@ -18,7 +18,7 @@ def home():
 def health():
     return {
         "status": "healthy",
-        "version": "1.0.0"
+        "version": "1.1.0"
     }
 
 
